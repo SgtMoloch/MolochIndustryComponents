@@ -1,0 +1,7 @@
+.vs
+obj
+Paths.user
+bin
+.editorconfig
+*.generated.sln
+.vscode/settings.json

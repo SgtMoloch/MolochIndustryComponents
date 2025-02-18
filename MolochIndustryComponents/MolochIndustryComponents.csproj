@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <GameAssembly Include="Assembly-CSharp" />
+    <GameAssembly Include="UnityEngine.CoreModule" />
+    <GameAssembly Include="0Harmony" />
+    <GameAssembly Include="Railloader.Interchange" />
+    <GameAssembly Include="Serilog" />
+    <GameAssembly Include="Definition" />
+    <GameAssembly Include="Core"/>
+    <GameAssembly Include="KeyValue.Runtime"/>
+    <GameAssembly Include="mscorlib"/>
+    <GameAssembly Include="Unity.TextMeshPro"/>
+    <GameAssembly Include="UnityEngine.UI"/>
+    <GameAssembly Include="UnityEngine.UIElementsModule"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="KeyValue.Runtime">
+      <HintPath>E:\SteamLibrary\steamapps\common\Railroader\Railroader_Data\Managed\KeyValue.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
